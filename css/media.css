@@ -1,0 +1,26 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .footer .form input{
+        width:80%;
+        height:45px;
+    }
+    .footer .form button
+    {
+        height:43px;
+    }
+    .footer .btn{
+        margin-top:6%;
+    }
+    .slider .title h1{
+        font-size:30px;
+    }
+    .slider .title h3{
+        font-size:20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
